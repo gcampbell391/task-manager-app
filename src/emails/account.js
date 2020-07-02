@@ -10,7 +10,7 @@ const sendWelcomeEmail = (email, name) => {
     })).then(() => {
         console.log('Message sent')
     }).catch((error) => {
-        console.log(error.response.body)
+        // console.log(error.response.body)
     })
 }
 
@@ -23,7 +23,7 @@ const sendCancelationEmail = (email, name) => {
     })).then(() => {
         console.log('Message sent')
     }).catch((error) => {
-        console.log(error.response.body)
+        // console.log(error.response.body)
     })
 }
 
